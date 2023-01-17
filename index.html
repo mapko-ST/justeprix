@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="png" sizes="16x16" href="assets/images/Logo.M.NB.SF.png" />
+  <meta name="author" content="Marc ST - Apprenant LA MANU" />
+  <meta name="description" content="Mini jeu créer lors de la formation Front End">
+  <meta name="keywords" content="juste prix, css, javascript, just, price, plus ou moins">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Juste Prix</title>
+</head>
+
+<body>
+  <section>
+    <h1>Quel est le prix ?</h1>
+    <container class="font">
+      <div class="block1">
+        <h2>LES RÈGLES</h2>
+        <p class="p1">Vous devez trouver le bon prix ! Le prix étant entres 1€ et 100€.
+          <span>Attention !</span>
+          Vous n'avez que 30 secondes !!!
+        </p>
+      </div>
+      <!--Rules-->
+      <div class="container">
+        <h2 class="stopWatch">30</h2>
+        <h3 class="second">Secondes</h3>
+        <h4 class="response">Trouvez le Juste Prix !</h4>
+        <form id="paris" class="form-inline" role="form">
+          <input type="text" class="form-control" id="number" placeholder="Entrez un nombre">
+          <button id="go" type="submit" class="btn btn-default">Parier !</button>
+        </form>
+        <button id="start" class="btn btn-large btn-danger">Commencer</button>
+      </div>
+    </container>
+    <footer>
+      <a class="button" target="_blank" href="https://www.linkedin.com/in/marc-steliga/">© Copyright Marc S. -
+        Apprenant
+        Front
+        End </a>
+      <button id="myBtn">Crédits</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p><span>FONTS:</span> https://fonts.google.com/</p>
+          <p><span>IMAGE:</span> https://pixabay.com/fr/</p>
+          <p><i>Jeu fait en HTML/JAVASCRIPT/CSS</i></p>
+        </div>
+      </div>
+
+    </footer>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
